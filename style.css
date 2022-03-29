@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.firstdiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    position: relative;
+    text-align: center;
+}
+
+.firstimg {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+
+.seconddiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    position: relative;
+    text-align: center;
+}
+
+.secondimage {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+
+.thirddiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    position: relative;
+    text-align: center;
+}
+
+.thirdimage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
