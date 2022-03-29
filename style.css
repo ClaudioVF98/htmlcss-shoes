@@ -5,6 +5,10 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .redsection {
     width: 100%;
     height: 100vh;
